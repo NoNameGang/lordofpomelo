@@ -1,7 +1,7 @@
 var bt = require('pomelo-bt');	//pomelo-bt是什么东西？
 
 var Action = function(opts) {	
-	this.blackboard = opts.blackboard;
+	this.blackboard = opts.blackboard;	//blackboard是什么？
 };
 
 module.exports = Action;
