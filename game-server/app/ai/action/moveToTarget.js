@@ -4,10 +4,10 @@ var util = require('util');
 var formula = require('../../consts/formula');
 var consts = require('../../consts/consts');
 
-var Action = function(opts) {
+var Action = function(opts) {	//怎么又叫Action？
 	BTNode.call(this, opts.blackboard);
 };
-util.inherits(Action, BTNode);
+util.inherits(Action, BTNode);	//inherits是啥？
 
 module.exports = Action;
 
