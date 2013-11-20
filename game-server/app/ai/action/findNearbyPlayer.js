@@ -1,6 +1,6 @@
-var bt = require('pomelo-bt');
+var bt = require('pomelo-bt');	//pomelo-bt是什么东西？
 
-var Action = function(opts) {
+var Action = function(opts) {	
 	this.blackboard = opts.blackboard;
 };
 
